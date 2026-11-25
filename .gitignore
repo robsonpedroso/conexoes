@@ -1,0 +1,12 @@
+bin/
+obj/
+publish/
+*.user
+.vs/
+
+# Relatórios gerados pelo app (contêm nome da máquina, usuários, IPs e processos)
+relatorio_*.html
+*.csv
+
+# Imagem de referência local (não faz parte do projeto)
+/image.png

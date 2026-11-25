@@ -1,0 +1,11 @@
+<Project>
+  <!-- Build reprodutível: não embute o caminho local da máquina (ex.: C:\pasta\...) no .exe/.pdb. -->
+  <PropertyGroup>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=.</PathMap>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Copyright>Copyright (c) 2026 Robson Pedroso</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>

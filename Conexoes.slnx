@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Conexoes.App/Conexoes.App.csproj" />
+    <Project Path="src/Conexoes.Core/Conexoes.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Conexoes.Tests/Conexoes.Tests.csproj" />
+  </Folder>
+</Solution>
